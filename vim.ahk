@@ -178,6 +178,9 @@ vk1D::return
     vk1D & k::Send("{Up}")
     vk1D & l::Send("{Right}")
     vk1D & x::Send("{Backspace}")
+    vk1D & i::Send("{vkF3sc029}")
+    vk1D & p::Send("^v")
+    vk1D & u::Send("^z")
 #HotIf
 
 #HotIf win.isFocusChrome() and modeMgr.isNormalMode()
